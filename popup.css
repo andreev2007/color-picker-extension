@@ -1,0 +1,35 @@
+body {
+    background: #f5f6f8;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 366px;
+}
+
+.changeColorBtn {
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.changeColorBtn:hover {
+    background: antiquewhite;
+}
+
+.colorGrid {
+    height: 20px;
+    border-radius: 2px;
+}
+
+.selectedColor {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
